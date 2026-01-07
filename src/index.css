@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-ivory text-obsidian font-sans antialiased;
+}
+
+main {
+  @apply bg-ivory;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
